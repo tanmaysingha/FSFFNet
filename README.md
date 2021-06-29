@@ -81,8 +81,8 @@ vehicle       | 0.878  | 0.756
  <b><u>To see the performance of FAST-SCNN on test dataset, you can view the .csv file from here: </b></u>
  (https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/FAST_SCNN_Test_Results_Evaluated_By_Cityscapes_Server.csv)
 
-### FANet
-![FANet](https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/FANet.png?raw=true)
+### MsFFNet
+![MsFFNet](https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/FANet.png?raw=true)
 <b><u>IoU Over Classes on Validation Set of Cityscapes</b></u>
 
 classes       |  IoU  |   nIoU
@@ -124,6 +124,9 @@ vehicle       | 0.892  | 0.767
  <b><u>To see the performance of FANet on test dataset, you can view the .csv file from here:</b></u>
   (https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/FANet_Test_Results_evaluated_by_Cityscapes_server.csv)
 
+ ### MsFFNet prediction on Cityscapes test images
+![Cityscapes_test_set](https://github.com/tanmaysingha/MsFFNet/blob/main/Prediction_samples/Cityscapes_test.png?raw=true) 
+ 
 ### Model prediction on BDD100K dataset
-![BDD100K test set images](https://github.com/tanmaysingha/MsFFNet/blob/main/Prediction_samples/BDD100K_test.eps?raw=true)
+![BDD100K_test_set](https://github.com/tanmaysingha/MsFFNet/blob/main/Prediction_samples/BDD100K_test.png?raw=true)
 
