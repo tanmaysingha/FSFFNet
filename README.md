@@ -82,7 +82,6 @@ vehicle       | 0.878  | 0.756
  (https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/FAST_SCNN_Test_Results_Evaluated_By_Cityscapes_Server.csv)
 
 ### MsFFNet
-![MsFFNet](https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/FANet.png?raw=true)
 <b><u>IoU Over Classes on Validation Set of Cityscapes</b></u>
 
 classes       |  IoU  |   nIoU
