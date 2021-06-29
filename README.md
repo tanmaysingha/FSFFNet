@@ -41,7 +41,7 @@ We trained our model with different input resolutions for cityscapes dataset. Ho
 
 ### MsFFNet
 ![MsFFNet](https://github.com/tanmaysingha/MsFFNet/blob/main/Prediction_samples/MsFFNet.png?raw=true)
-
+#### Class and Categorywise model performance on Cityscapes Validation set
 ![val_meanIoU](https://github.com/tanmaysingha/MsFFNet/blob/main/Prediction_samples/best_val_meanIoU.png?raw=true) 
  
  <b><u>To see the performance of MsFFNet on test dataset, you can view the following file from here: </b></u>
@@ -51,5 +51,8 @@ We trained our model with different input resolutions for cityscapes dataset. Ho
 ![Cityscapes_test_set](https://github.com/tanmaysingha/MsFFNet/blob/main/Prediction_samples/Cityscapes_test.png?raw=true) 
  
 ### Model prediction on BDD100K dataset
+#### Validation set
+![BDD100K_val_set](https://github.com/tanmaysingha/MsFFNet/blob/main/Prediction_samples/BDD100K_test.png?raw=true)
+#### Test set
 ![BDD100K_test_set](https://github.com/tanmaysingha/MsFFNet/blob/main/Prediction_samples/BDD100K_test.png?raw=true)
 
