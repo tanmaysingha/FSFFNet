@@ -25,23 +25,23 @@ For performance comparison, we trained few off-line and real-time existing model
 We trained our model with different input resolutions for cityscapes dataset. However, we mainly focus full resolution of cityscapes images. For Ca dataset, we use 768 x 1280px resolution altough original image size is 720 x 1280px. 
 
 ### DeepLab
-![DeepLabV3+](https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/DeepLab.png?raw=true)
+![DeepLabV3+](https://github.com/tanmaysingha/MsFFNet/blob/main/Prediction_samples/Deeplab.png?raw=true)
 
 ### Bayesian SegNet
-![Bayesian SegNet](https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/bayes_segnet.png?raw=true)
+![Bayesian SegNet](https://github.com/tanmaysingha/MsFFNet/blob/main/Prediction_samples/Bayes_SegNet.png?raw=true)
 
 ### FAST-SCNN
-![FAST-SCNN](https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/fast_scnn.png?raw=true)
+![FAST-SCNN](https://github.com/tanmaysingha/MsFFNet/blob/main/Prediction_samples/fast_scnn.png?raw=true)
 <b><u>IoU Over Classes on Validation Set</b></u>
 
 ### ContextNet
-![ContextNet](https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/separable_UNet.png?raw=true)
+![ContextNet](https://github.com/tanmaysingha/MsFFNet/blob/main/Prediction_samples/ContextNet.png?raw=true)
 
 ### FANet
-![FANet](https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/separable_UNet.png?raw=true)
+![FANet](https://github.com/tanmaysingha/MsFFNet/blob/main/Prediction_samples/FANet.png?raw=true)
 
 ### MsFFNet
-![MsFFNet](https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/separable_UNet.png?raw=true)
+![MsFFNet](https://github.com/tanmaysingha/MsFFNet/blob/main/Prediction_samples/MsFFNet.png?raw=true)
 
 classes       |  IoU  |   nIoU
 --------------|-------|---------
