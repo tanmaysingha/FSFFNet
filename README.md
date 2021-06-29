@@ -32,7 +32,6 @@ We trained our model with different input resolutions for cityscapes dataset. Ho
 
 ### FAST-SCNN
 ![FAST-SCNN](https://github.com/tanmaysingha/MsFFNet/blob/main/Prediction_samples/fast_scnn.png?raw=true)
-<b><u>IoU Over Classes on Validation Set</b></u>
 
 ### ContextNet
 ![ContextNet](https://github.com/tanmaysingha/MsFFNet/blob/main/Prediction_samples/ContextNet.png?raw=true)
@@ -125,6 +124,6 @@ vehicle       | 0.892  | 0.767
  <b><u>To see the performance of FANet on test dataset, you can view the .csv file from here:</b></u>
   (https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/FANet_Test_Results_evaluated_by_Cityscapes_server.csv)
 
-### Model prediction on CamVid dataset
-![FANet_Vs_FAST_SCNN](https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/CamVid_prediction.png?raw=true)
+### Model prediction on BDD100K dataset
+![BDD100K test set images](https://github.com/tanmaysingha/MsFFNet/blob/main/Prediction_samples/BDD100K_test.eps?raw=true)
 
