@@ -3,7 +3,7 @@ Feature Scaling Feature Fusion Network (FSFFNet) is a semantic segmentation mode
 Model performance is evaluated by two public benchmarks- Cityscapes and BDD100K. Cityscapes provides 1024 * 2048 resolution fine-tune and coarse images, whereas BDD provides 720 * 1280 resolution fine-tune images. We utilize Cityscapes corase dataset to improve test set accuracy of the model. The proposed msFFNet can handle full resolution input images with less computational cost. To compare our model performance with other existing semantice segmentation models, we also trained FAST-SCNN, ContextNet, Bayesian SegNet, and DeepLab models. Our experiment exhibits that MSFFNet outperforms than these models and set a new state-of-the-art result on Cityscapes dataset. It produces 71.8% and 69.4% validation and test meanIoU respectively, while having only 1.3 million model parameters. On BDD100K dataset, model attains 55.2% validation meanIoU. This repository contains supplementary materials of the study. More details will be available upon acceptance of the paper. 
 
 ## Datasets
-For this research work, we have used cityscapes benchmark datasets and CamVid dataset.
+For this research work, we have used two publicly available benchmarks- Cityscapes and BDD100K datasets.
 * Cityscapes - To access this benchmark, user needs an account. https://www.cityscapes-dataset.com/downloads/     
 * BDD100K - To access this benchmark, visit this link: https://bair.berkeley.edu/blog/2018/05/30/bdd/
 
@@ -52,7 +52,7 @@ We trained our model with different input resolutions for cityscapes dataset. Ho
  
 ### Model prediction on BDD100K dataset
 #### Validation set
-![BDD100K_val_set](https://github.com/tanmaysingha/MsFFNet/blob/main/Prediction_samples/BDD100K_test.png?raw=true)
+![BDD100K_val_set](https://github.com/tanmaysingha/FSFFNet/blob/main/Prediction_samples/BDD_val_predictions.png?raw=true)
 #### Test set
 ![BDD100K_test_set](https://github.com/tanmaysingha/MsFFNet/blob/main/Prediction_samples/BDD100K_test.png?raw=true)
 
