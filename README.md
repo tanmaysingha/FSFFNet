@@ -43,7 +43,7 @@ We trained our model with different input resolutions for different datasets. Fo
 ![FANet](https://github.com/tanmaysingha/MsFFNet/blob/main/Prediction_samples/FANet.png?raw=true)
 
 ### FSFFNet
-![FSFFNet](https://github.com/tanmaysingha/MsFFNet/blob/main/Prediction_samples/MsFFNet.png?raw=true)
+![FSFFNet](https://github.com/tanmaysingha/MsFFNet/blob/main/Prediction_samples/FSFFNet.png?raw=true)
 #### Class and Categorywise model performance on Cityscapes Validation set
 ![val_meanIoU](https://github.com/tanmaysingha/MsFFNet/blob/main/Prediction_samples/best_val_meanIoU.png?raw=true) 
  
