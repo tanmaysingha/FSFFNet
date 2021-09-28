@@ -2,6 +2,9 @@
 Feature Scaling Feature Fusion Network (FSFFNet) is a semantic segmentation model for real-time computation. It reduces the large semantic gap among the rich feature maps by leveraging a multi-stage feature fusion technique at the decoder. For rich contextual representation, we deploy a feature scaling technique, similar to Atrous Spatial Pyramid Pooling (ASPP).
 Model performance is evaluated by two public benchmarks- Cityscapes and BDD100K. Cityscapes provides 1024 * 2048 resolution fine-tune and coarse images, whereas BDD provides 720 * 1280 resolution fine-tune images. We utilize Cityscapes corase dataset to improve test set accuracy of the model. The proposed msFFNet can handle full resolution input images with less computational cost. To compare our model performance with other existing semantice segmentation models, we also trained FAST-SCNN, ContextNet, Bayesian SegNet, and DeepLab models. Our experiment exhibits that MSFFNet outperforms than these models and set a new state-of-the-art result on Cityscapes dataset. It produces 71.8% and 69.4% validation and test meanIoU respectively, while having only 1.3 million model parameters. On BDD100K dataset, model attains 55.2% validation meanIoU. This repository contains supplementary materials of the study. More details will be available upon acceptance of the paper. 
 
+### Complete pipeline of SCMNet
+![pipeline](https://github.com/tanmaysingha/FSFFNet/blob/main/Prediction_samples/complete_pipeline.png?raw=true)
+
 ## Datasets
 For this research work, we have used two publicly available benchmarks- Cityscapes and BDD100K datasets.
 * Cityscapes - To access this benchmark, user needs an account. https://www.cityscapes-dataset.com/downloads/     
@@ -22,10 +25,7 @@ For performance comparison, we trained few off-line and real-time existing model
 * Python >= 3.7
 
 ## Results
-We trained our model with different input resolutions for cityscapes dataset. However, we mainly focus on full resolution of cityscapes images. For BDD100K dataset, we use 768 x 1280px resolution altough original image size is 720 x 1280px. 
-
-### Complete pipeline of SCMNet
-![pipeline](https://github.com/tanmaysingha/FSFFNet/blob/main/Prediction_samples/complete_pipeline.png?raw=true)
+We trained our model with different input resolutions for different datasets. For Cityscapes, we train model with 1024 x 2048 px resolution whereas for BDD100K dataset, we use 768 x 1280 px resolution. Output produced by different models are displayed below.
 
 ### DeepLab
 ![DeepLabV3+](https://github.com/tanmaysingha/MsFFNet/blob/main/Prediction_samples/Deeplab.png?raw=true)
