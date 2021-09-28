@@ -24,6 +24,9 @@ For performance comparison, we trained few off-line and real-time existing model
 ## Results
 We trained our model with different input resolutions for cityscapes dataset. However, we mainly focus on full resolution of cityscapes images. For BDD100K dataset, we use 768 x 1280px resolution altough original image size is 720 x 1280px. 
 
+### Complete pipeline of SCMNet
+![pipeline](https://github.com/tanmaysingha/FSFFNet/blob/main/Prediction_samples/complete_pipeline.png?raw=true)
+
 ### DeepLab
 ![DeepLabV3+](https://github.com/tanmaysingha/MsFFNet/blob/main/Prediction_samples/Deeplab.png?raw=true)
 
