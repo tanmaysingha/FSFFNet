@@ -10,6 +10,54 @@ For this research work, we have used two publicly available benchmarks- Cityscap
 * Cityscapes - To access this benchmark, user needs an account. https://www.cityscapes-dataset.com/downloads/     
 * BDD100K - To access this benchmark, visit this link: https://bair.berkeley.edu/blog/2018/05/30/bdd/
 
+For cityscapes, we are using 19 classes out of 33 classes to train and evaluate model performance. Classes of BDD100K dataset are compatiable with Cityscapes dataset, although it provides total 40 class levels. We map the classes of both dataset so that while evaluating model performance on each dataset, they can compliment each other. In the following table, TrainId defines the mapping of both datasets.
+
+<b><u>IoU Over Classes on Validation Set</b></u>
+
+TrainId | Cityscapes classes | TrainId | BDD100K classes
+--------|--------------------|---------|----------------
+  255   |     Unlabeled      |   255   |   Unlabeled
+  255   |     Ego Vechile    |   255   |   Dynamic
+  255   |Rectification border|   255   | Ego Vechile
+  255   |     Out of roi     |   255   | Gorund
+  255   |       Static       |   255   |  Static
+  255   |      Dynamic       |   255   | Parking
+   0    |        Road        |   255   | Rail track
+   1    |      Sidewalk      |    0    |    Road
+  255   |      Parking       |    1    |  Sidewalk
+  255   |     Rail track     |   255   |  Bridge
+   2    |     Building       |    2    |  Building
+   3    |       Wall         |    4    |  Fence
+   4    |       fence        |   255   |  Garage
+  255   |   Guard rail       |   255   |  Guard rail
+  255   |      Bridge        |   255   |  Tunnel
+  255   |      Tunnel        |    3    |  Wall
+   5    |        Pole        |   255   |  Banner
+  255   |      Polegroup     |   255   |  Billboard
+   6    | Traffic light      |   255   |  Lane divider
+   7    | Traffic sign       |   255   |  Parking sign
+   8    | Vegetation         |    5    |  Pole
+   9    | Terrain            |   255   |  Polegroup
+  10    | Sky                |   255   |  Street light
+  11    | Person             |   255   |  Traffic cone
+  12    | Rider              |   255   |  Traffic device
+  13    | Car                |    6    |  Traffic light
+  14    | Truck              |    7    |  Traffic sign frame
+  15    | Bus                |    9    |  Terrain
+  255   | Caravan            |    8    |  Vegetation
+  255   | Trailer            |   10    |  Sky
+  16    | Train              |   11    |  Person
+  17    | Motorcycle         |   12    |  Rider
+  18    | Bicyle             |   18    |  Bicycle
+  255   | License plate      |   15    |  Bus
+  6     | Traffic light       |   13    |  Car
+  6     | Traffic light       |   255   |  Caravan
+  6     | Traffic light       |   17    |  motorcycle
+  6     | Traffic light       |    255  |  Trailer
+        |                     |   16    |  Train
+        |                     |   14    |  Truck
+<b>Score Average | <b>0.633 | <b>0.338
+
 ## Metrics
 To understand the metrics used for model performance evaluation, please  refer here: https://www.cityscapes-dataset.com/benchmarks/#pixel-level-results
 
