@@ -50,6 +50,7 @@ TrainId | Cityscapes classes | TrainId | BDD100K classes
   255   |     Caravan        |  255    |    Caravan
   255   |     Trailer        |  255    |    Trailer
   255   |  License plate     |         |
+  255   |        -           |  255    |     Garage
   
  <b><u>Ignored classes from both datasets</b></u>
  
