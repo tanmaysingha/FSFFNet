@@ -49,7 +49,10 @@ TrainId | Cityscapes classes | TrainId | BDD100K classes
   255   |     Caravan        |  255    |    Caravan
   255   |     Trailer        |  255    |    Trailer
   255   |  License plate     |         |
-
+   -    |        -           |  255    |     Garage
+   -    |        -           |  255    |     Banner
+   -    |        -           |  255    |   Billboard
+   
 
 ## Metrics
 To understand the metrics used for model performance evaluation, please  refer here: https://www.cityscapes-dataset.com/benchmarks/#pixel-level-results
