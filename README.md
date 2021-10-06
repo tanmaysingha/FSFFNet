@@ -12,8 +12,17 @@ For this research work, we have used two publicly available benchmarks- Cityscap
 
 For cityscapes and BDD100K datasets, we use 19 classes to train and evaluate the model performance. Classes of BDD100K dataset are compatiable with Cityscapes dataset, although it provides total 41 class levels in compare to 35 classes of Cityscapes dataset. The class mapping between these two datasets are shown in the following table. BDD100k dataset is more challenging than Cityscapes. Therefore, we use transfter learning technique to improve model performance on both datasets. In the following table, classes highlighted by 255 TrainId are ignored classes.
 
-TrainId | Cityscapes classes | TrainId | BDD100K classes
---------|--------------------|---------|----------------
+TrainId | Cityscapes classes | TrainId | BDD100K classes   
+--------|--------------------|---------|------------------
+   -    |        -           |  255    |     Garage
+   -    |        -           |  255    |     Banner
+   -    |        -           |  255    |   Billboard
+   -    |        -           |  255    |  Lane divider
+   -    |        -           |  255    |  Parking sign
+   -    |        -           |  255    |  Street light
+   -    |        -           |  255    |  Traffic cone
+   -    |        -           |  255    |  Traffic device
+   -    |        -           |  255    | Trafic sign frame
    0    |        Road        |    0    |      Road
    1    |      Sidewalk      |    1    |    Sidewalk
    2    |      Building      |    2    |    Building
@@ -49,15 +58,7 @@ TrainId | Cityscapes classes | TrainId | BDD100K classes
   255   |     Caravan        |  255    |    Caravan
   255   |     Trailer        |  255    |    Trailer
   255   |  License plate     |         |
-   -    |        -           |  255    |     Garage
-   -    |        -           |  255    |     Banner
-   -    |        -           |  255    |   Billboard
-   -    |        -           |  255    |  Lane divider
-   -    |        -           |  255    |  Parking sign
-   -    |        -           |  255    |  Street light
-   -    |        -           |  255    |  Traffic cone
-   -    |        -           |  255    |  Traffic device
-   -    |        -           |  255    | Trafic sign frame
+
 
 ## Metrics
 To understand the metrics used for model performance evaluation, please  refer here: https://www.cityscapes-dataset.com/benchmarks/#pixel-level-results
