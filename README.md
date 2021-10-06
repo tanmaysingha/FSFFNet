@@ -63,7 +63,7 @@ Serial No. | TrainId | Cityscapes classes | TrainId | BDD100K classes
  <b><u>Ignored classes from both datasets</b></u>
  
  TrainId | Cityscapes classes | TrainId | BDD100K classes   
---------|--------------------|---------|------------------
+---------|--------------------|---------|------------------
   255   |    Unlabeled       |  255    |    Unlabeled
   255   |    Ego Vehicle     |  255    |   Ego Vehicle
   255   |Rectification Border|   -     |       -
