@@ -14,15 +14,6 @@ For cityscapes and BDD100K datasets, we use 19 classes to train and evaluate the
 
 TrainId | Cityscapes classes | TrainId | BDD100K classes   
 --------|--------------------|---------|------------------
-   -    |        -           |  255    |     Garage
-   -    |        -           |  255    |     Banner
-   -    |        -           |  255    |   Billboard
-   -    |        -           |  255    |  Lane divider
-   -    |        -           |  255    |  Parking sign
-   -    |        -           |  255    |  Street light
-   -    |        -           |  255    |  Traffic cone
-   -    |        -           |  255    |  Traffic device
-   -    |        -           |  255    | Trafic sign frame
    0    |        Road        |    0    |      Road
    1    |      Sidewalk      |    1    |    Sidewalk
    2    |      Building      |    2    |    Building
