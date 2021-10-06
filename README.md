@@ -55,7 +55,7 @@ TrainId | Cityscapes classes | TrainId | BDD100K classes
  
 TrainId | Cityscapes classes | TrainId | BDD100K classes   
 --------|--------------------|---------|-----------------
-        |        -           |  255    |     Garage
+ 255    |        -           |  255    |     Garage
         |        -           |  255    |     Banner
         |        -           |  255    |   Billboard  
         |        -           |  255    |  Lane divider
