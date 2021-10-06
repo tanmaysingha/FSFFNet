@@ -14,7 +14,7 @@ For cityscapes and BDD100K datasets, we use 19 classes to train and evaluate the
 
 <b><u>19 classes used for training</b></u>
 Serial No. | TrainId | Cityscapes classes | TrainId | BDD100K classes   
------------|---------|--------------------|---------|------------------
+-----------|---------|--------------------|---------|-----------------
     1      |    0    |        Road        |    0    |      Road
     2      |    1    |      Sidewalk      |    1    |    Sidewalk
     3      |    2    |      Building      |    2    |    Building
