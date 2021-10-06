@@ -10,7 +10,7 @@ For this research work, we have used two publicly available benchmarks- Cityscap
 * Cityscapes - To access this benchmark, user needs an account. https://www.cityscapes-dataset.com/downloads/     
 * BDD100K - To access this benchmark, visit this link: https://bair.berkeley.edu/blog/2018/05/30/bdd/
 
-For cityscapes and BDD100K datasets, we use 19 classes to train and evaluate the model performance. Classes of BDD100K dataset are compatiable with Cityscapes dataset, although it provides total 41 class levels in compare to 35 classes of Cityscapes dataset. The class mapping between these two datasets are shown in the following table. BDD100k dataset is more challenging than Cityscapes. Therefore, we use transfter learning technique to improve model performance on both datasets. In the following table, classes highlighted by 255 TrainId are ignored classes. Empty cell means missing class level in the specific dataset.
+For cityscapes and BDD100K datasets, we use 19 classes to train and evaluate the model performance. Classes of BDD100K dataset are compatiable with Cityscapes dataset, although it provides total 41 class levels in compare to 35 classes of Cityscapes dataset. The class mapping between these two datasets are shown in the following table. BDD100k dataset is more challenging than Cityscapes. Therefore, we use transfer learning technique to improve model performance on both datasets. In the following table, classes highlighted by 255 TrainId are ignored classes. Empty cell means missing class level in the specific dataset.
 
 TrainId | Cityscapes classes | TrainId | BDD100K classes   
 --------|--------------------|---------|-----------------
