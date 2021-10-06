@@ -58,13 +58,12 @@ TrainId | Cityscapes classes | TrainId | BDD100K classes
         |        -           |  255    |     Garage
         |        -           |  255    |     Banner
         |        -           |  255    |   Billboard  
-   -    |        -           |  255    |  Lane divider
-   -    |        -           |  255    |  Parking sign
-   -    |        -           |  255    |  Street light
-   -    |        -           |  255    |  Traffic cone
-   -    |        -           |  255    |  Traffic device
-   -    |        -           |  255    | Trafic sign frame
------------------------------------------------------------
+        |        -           |  255    |  Lane divider
+        |        -           |  255    |  Parking sign
+        |        -           |  255    |  Street light
+        |        -           |  255    |  Traffic cone
+        |        -           |  255    |  Traffic device
+        |                    |  255    | Trafic sign frame
 
 ## Metrics
 To understand the metrics used for model performance evaluation, please  refer here: https://www.cityscapes-dataset.com/benchmarks/#pixel-level-results
