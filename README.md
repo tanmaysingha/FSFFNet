@@ -64,31 +64,15 @@ TrainId | Cityscapes classes | TrainId | BDD100K classes
  
  TrainId | Cityscapes classes | TrainId | BDD100K classes   
 ---------|--------------------|---------|------------------
-  255   |    Unlabeled       |  255    |    Unlabeled
-  255   |    Ego Vehicle     |  255    |   Ego Vehicle
-  255   |Rectification Border|   -     |       -
-  255   |    Out of roi      |   -     |       -
-  255   |      Static        |  255    |     Static
-  255   |     Dynamic        |  255    |     Dynamic
-  255   |      Ground        |  255    |     Ground
-  255   |     Parking        |  255    |    Parking
-  255   |    Rail track      |  255    |   Rail track
-  255   |    Guard rail      |  255    |   Guard rail
-  255   |      Bridge        |  255    |     Bridge
-  255   |      Tunnel        |  255    |     Tunnel
-  255   |    Polegroup       |  255    |   Polegroup
-  255   |     Caravan        |  255    |    Caravan
-  255   |     Trailer        |  255    |    Trailer
-  255   |  License plate     |         |
-        |        -           |  255    |     Garage
-        |        -           |  255    |     Banner
-        |        -           |  255    |   Billboard  
-        |        -           |  255    |  Lane divider
-        |        -           |  255    |  Parking sign
-        |        -           |  255    |  Street light
-        |        -           |  255    |  Traffic cone
-        |        -           |  255    |  Traffic device
-        |                    |  255    | Trafic sign frame
+         |        -           |  255    |     Garage
+         |        -           |  255    |     Banner
+         |        -           |  255    |   Billboard  
+         |        -           |  255    |  Lane divider
+         |        -           |  255    |  Parking sign
+         |        -           |  255    |  Street light
+         |        -           |  255    |  Traffic cone
+         |        -           |  255    |  Traffic device
+         |                    |  255    | Trafic sign frame
 
 ## Metrics
 To understand the metrics used for model performance evaluation, please  refer here: https://www.cityscapes-dataset.com/benchmarks/#pixel-level-results
