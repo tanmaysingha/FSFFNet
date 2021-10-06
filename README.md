@@ -13,52 +13,52 @@ For this research work, we have used two publicly available benchmarks- Cityscap
 For cityscapes and BDD100K datasets, we use 19 classes to train and evaluate the model performance. Classes of BDD100K dataset are compatiable with Cityscapes dataset, although it provides total 41 class levels in compare to 35 classes of Cityscapes dataset. The class mapping between these two datasets are shown in the following table. BDD100k dataset is more challenging than Cityscapes. Therefore, we use transfter learning technique to improve model performance on both datasets. In the following table, classes highlighted by 255 TrainId are ignored classes.
 
 <b><u>19 classes used for training</b></u>
-Serial No. | TrainId | Cityscapes classes | TrainId | BDD100K classes   
------------|---------|--------------------|---------|-----------------
-    1      |    0    |        Road        |    0    |      Road
-    2      |    1    |      Sidewalk      |    1    |    Sidewalk
-    3      |    2    |      Building      |    2    |    Building
-    4      |    3    |        Wall        |    3    |      Wall
-    5      |    4    |       Fence        |    4    |     Fence
-    6      |    5    |        Pole        |    5    |      Poll
-    7      |    6    |   Traffic light    |    6    |  Traffic sign
-    8      |    7    |   Traffic sign     |    7    |  Traffic sign
-    9      |    8    |    Vegetation      |    8    |   Vegetation
-   10      |    9    |      Terrain       |    9    |    Terrain
-   11      |   10    |        Sky         |   10    |      Sky
-   12      |   11    |      Person        |   11    |    Person
-   13      |   12    |       Rider        |   12    |     Rider
-   14      |   13    |        Car         |   13    |      Car
-   15      |   14    |      Truck         |   14    |     Truck
-   16      |   15    |        Bus         |   15    |      Bus
-   17      |   16    |      Train         |   16    |     Train
-   18      |   17    |    Motorcycle      |   17    |   Motorcycle
-   19      |   18    |      Bicycle       |   18    |     Bicycle
-   20      |   255   |    Unlabeled       |  255    |    Unlabeled
-   21      |   255   |    Ego Vehicle     |  255    |   Ego Vehicle
-   22      |   255   |Rectification Border|   -     |       -
-   23      |   255   |    Out of roi      |   -     |       -
-   24      |   255   |      Static        |  255    |     Static
-   25      |   255   |     Dynamic        |  255    |     Dynamic
-   26      |   255   |      Ground        |  255    |     Ground
-   27      |   255   |     Parking        |  255    |    Parking
-   28      |   255   |    Rail track      |  255    |   Rail track
-   29      |   255   |    Guard rail      |  255    |   Guard rail
-   30      |   255   |      Bridge        |  255    |     Bridge
-   31      |   255   |      Tunnel        |  255    |     Tunnel
-   32      |   255   |    Polegroup       |  255    |   Polegroup
-   33      |   255   |     Caravan        |  255    |    Caravan
-   34      |   255   |     Trailer        |  255    |    Trailer
-   35      |   255   |  License plate     |         |
-   36      |         |        -           |  255    |     Garage
-   37      |         |        -           |  255    |     Banner
-   38      |         |        -           |  255    |   Billboard  
-   39      |         |        -           |  255    |  Lane divider
-   40      |         |        -           |  255    |  Parking sign
-   41      |         |        -           |  255    |  Street light
-   42      |         |        -           |  255    |  Traffic cone
-   43      |         |        -           |  255    |  Traffic device
-   44      |         |                    |  255    | Trafic sign frame
+TrainId | Cityscapes classes | TrainId | BDD100K classes   
+--------|--------------------|---------|-----------------
+   0    |        Road        |    0    |      Road
+   1    |      Sidewalk      |    1    |    Sidewalk
+   2    |      Building      |    2    |    Building
+   3    |        Wall        |    3    |      Wall
+   4    |       Fence        |    4    |     Fence
+   5    |        Pole        |    5    |      Poll
+   6    |   Traffic light    |    6    |  Traffic sign
+   7    |   Traffic sign     |    7    |  Traffic sign
+   8    |    Vegetation      |    8    |   Vegetation
+   9    |      Terrain       |    9    |    Terrain
+  10    |        Sky         |   10    |      Sky
+  11    |      Person        |   11    |    Person
+  12    |       Rider        |   12    |     Rider
+  13    |        Car         |   13    |      Car
+  14    |      Truck         |   14    |     Truck
+  15    |        Bus         |   15    |      Bus
+  16    |      Train         |   16    |     Train
+  17    |    Motorcycle      |   17    |   Motorcycle
+  18    |      Bicycle       |   18    |     Bicycle
+  255   |    Unlabeled       |  255    |    Unlabeled
+  255   |    Ego Vehicle     |  255    |   Ego Vehicle
+  255   |Rectification Border|   -     |       -
+  255   |    Out of roi      |   -     |       -
+  255   |      Static        |  255    |     Static
+  255   |     Dynamic        |  255    |     Dynamic
+  255   |      Ground        |  255    |     Ground
+  255   |     Parking        |  255    |    Parking
+  255   |    Rail track      |  255    |   Rail track
+  255   |    Guard rail      |  255    |   Guard rail
+  255   |      Bridge        |  255    |     Bridge
+  255   |      Tunnel        |  255    |     Tunnel
+  255   |    Polegroup       |  255    |   Polegroup
+  255   |     Caravan        |  255    |    Caravan
+  255   |     Trailer        |  255    |    Trailer
+  255   |  License plate     |         |
+        |        -           |  255    |     Garage
+        |        -           |  255    |     Banner
+        |        -           |  255    |   Billboard  
+        |        -           |  255    |  Lane divider
+        |        -           |  255    |  Parking sign
+        |        -           |  255    |  Street light
+        |        -           |  255    |  Traffic cone
+        |        -           |  255    |  Traffic device
+        |                    |  255    | Trafic sign frame
   
  <b><u>Ignored classes from both datasets</b></u>
  
