@@ -51,6 +51,14 @@ TrainId | Cityscapes classes | TrainId | BDD100K classes
   255   |     Trailer        |  255    |    Trailer
   255   |  License plate     |         |
   255   |        -           |  255    |     Garage
+  255   |        -           |  255    |     Banner
+  255   |        -           |  255    |   Billboard  
+  255   |        -           |  255    |  Lane divider
+  255   |        -           |  255    |  Parking sign
+  255   |        -           |  255    |  Street light
+  255   |        -           |  255    |  Traffic cone
+  255   |        -           |  255    |  Traffic device
+  255   |                    |  255    | Trafic sign frame
   
  <b><u>Ignored classes from both datasets</b></u>
  
