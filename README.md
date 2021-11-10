@@ -19,7 +19,7 @@ TrainId | Cityscapes classes | TrainId | BDD100K classes
    2    |      Building      |    2    |    Building
    3    |        Wall        |    3    |      Wall
    4    |       Fence        |    4    |     Fence
-   5    |        Pole        |    5    |      Poll
+   5    |        Pole        |    5    |      Pole
    6    |   Traffic light    |    6    |  Traffic sign
    7    |   Traffic sign     |    7    |  Traffic sign
    8    |    Vegetation      |    8    |   Vegetation
