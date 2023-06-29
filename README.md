@@ -109,3 +109,18 @@ We trained our model with different input resolutions for different datasets. Fo
 #### Test set
 ![BDD100K_test_set](https://github.com/tanmaysingha/MsFFNet/blob/main/Prediction_samples/BDD100K_test.png?raw=true)
 
+ ### Citation
+ ```yaml
+cff-version: 1.2.0
+If this research work is useful for your research work, then please consider for citing the paper:
+@inproceedings{singha2021lightweight,
+  title={{A lightweight multi-scale feature fusion network for real-time semantic segmentation}},
+  author={Singha, Tanmay and Pham, Duc-Son and Krishna, Aneesh and Gedeon, Tom},
+  booktitle={Proc. ICONIP},
+  pages={193--205},
+  year={2021},
+  organization={Springer},
+doi={https://doi.org/10.1007/978-3-030-92270-2_17}
+}
+
+```
